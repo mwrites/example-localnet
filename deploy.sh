@@ -7,7 +7,7 @@ if [ $# -eq 0 ] || [ "$1" != "localnet" ] && [ "$1" != "devnet" ]; then
   exit 1
 fi
 
-crate_name=$(basename "$PWD")
+crate_name=hello_clockwork
 network=$1
 
 # Get pubkey addresses
