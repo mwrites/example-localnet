@@ -10,5 +10,6 @@
 0. sh -c "$(curl -sSfL https://release.solana.com/v1.14.12/install)" 
 1. clockwork-v1.4/scripts/build-all.sh clockwork-v1.4
 2. clockwork-v1.4/bin/clockwork localnet
+(in another window)
 3. ./deploy.sh localnet
 4. (optional) anchor test --skip-local-validator
